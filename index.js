@@ -12,7 +12,7 @@ app.get("/", (req, res) => {
     return res.status(200).json({message:"all is good"})
 })
 app.get("/test", (req, res) => {
-    return res.status(200).json({message:"this is a test route"})
+    return res.status(200).json({message:"this is a test route 3"})
 })
 
 app.listen(port, () => {
